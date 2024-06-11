@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <div class="slider-container">
+      <h1>What is your most recent utility bill?</h1>
+      <hr />
+      <div id="sliderValue">$150</div>
+
+      <div class="slider-wrapper">
+        <div>
+          <span>$50</span>
+        </div>
+        <input
+          type="range"
+          min="50"
+          max="600"
+          value="150"
+          class="slider"
+          id="priceRange"
+        />
+        <div>
+          <span>$600 +</span>
+        </div>
+      </div>
+      <button class="next-btn">Next</button>
+    </div>
+  </body>
+</html>
